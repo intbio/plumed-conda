@@ -1,0 +1,47 @@
+about:
+  home: http://www.plumed.org/
+  license: GNU LESSER GENERAL PUBLIC LICENSE
+  summary: PLUMED is an open source library for free energy calculations in molecular systems which works together with some of the most popular molecular dynamics engines.
+
+package:
+  name: plumed2
+  version: 2.5.0
+
+build:
+  number: 0
+#  skip: True  # [osx]
+
+# See http://manual.gromacs.org/documentation/
+# for latest release. Note that version scheme changed from
+# 5.1 to 2016.x and 2018.x
+source:
+  git_rev: v2.5.0
+  git_url: https://github.com/plumed/plumed2
+
+requirements:
+  build:
+    - {{ compiler('c') }}
+    - {{ compiler('cxx') }}
+    - cmake
+  host:
+  #  - openmp # [linux]
+  #  - ocl-icd
+  #  - libhwloc 1.*
+  #  - fftw
+  #  - perl
+  #  - python >=2.7
+  run:
+ #   - ocl-icd
+ #   - openmp # [linux]
+ #   - fftw
+ #   - libhwloc 1.*
+
+test:
+  commands:
+    - plumed -v
+
+
+#extra:
+#  identifiers:
+#    - biotools:gromacs
+#    - doi:10.1016/j.softx.2015.06.001
