@@ -18,14 +18,14 @@ requirements:
     - {{ compiler('c') }}
     - {{ compiler('cxx') }}
   host:
-    - python >=2.7
+  #  - python >=2.7
   #  - openmp # [linux]
   #  - ocl-icd
   #  - libhwloc 1.*
   #  - fftw
   #  - perl
   run:
-    - python >=2.7
+  #  - python >=2.7
      #   - ocl-icd
  #   - openmp # [linux]
  #   - fftw
