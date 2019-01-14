@@ -1,8 +1,3 @@
- about:
-  home: http://www.plumed.org/
-  license: GNU LESSER GENERAL PUBLIC LICENSE
-  summary: PLUMED is an open source library for free energy calculations in molecular systems which works together with some of the most popular molecular dynamics engines.
-
 package:
   name: plumed2
   version: 2.5.0
@@ -45,3 +40,8 @@ requirements:
 #  identifiers:
 #    - biotools:gromacs
 #    - doi:10.1016/j.softx.2015.06.001
+about:
+  home: http://www.plumed.org/
+  license: GNU LESSER GENERAL PUBLIC LICENSE
+  summary: PLUMED is an open source library for free energy calculations in molecular systems which works together with some of the most popular molecular dynamics engines.
+
