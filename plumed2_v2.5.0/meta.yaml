@@ -17,6 +17,7 @@ requirements:
   build:
     - {{ compiler('c') }}
     - {{ compiler('cxx') }}
+    - zlib
   host:
     - python >=2.7
   #  - openmp # [linux]
