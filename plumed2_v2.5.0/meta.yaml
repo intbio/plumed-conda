@@ -29,16 +29,17 @@ requirements:
   #  - libhwloc 1.*
   #  - fftw
   #  - perl
-  #  - python >=2.7
+    - python >=2.7
   run:
- #   - ocl-icd
+    - python >=2.7
+     #   - ocl-icd
  #   - openmp # [linux]
  #   - fftw
  #   - libhwloc 1.*
 
 test:
   commands:
-    - plumed -v
+    - plumed --version
 
 
 #extra:
