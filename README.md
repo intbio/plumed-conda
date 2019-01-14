@@ -13,7 +13,7 @@ anaconda login
 #See here https://conda.io/docs/user-guide/tasks/build-packages/compiler-tools.html
 
 #conda config --add channels conda-forge
-conda-build -c conda-forge gromacs_VERSION
+conda-build -c conda-forge plumed2_VERSION
 anaconda upload path_to_package
 ```
 
