@@ -1,4 +1,4 @@
-about:
+ about:
   home: http://www.plumed.org/
   license: GNU LESSER GENERAL PUBLIC LICENSE
   summary: PLUMED is an open source library for free energy calculations in molecular systems which works together with some of the most popular molecular dynamics engines.
@@ -22,14 +22,13 @@ requirements:
   build:
     - {{ compiler('c') }}
     - {{ compiler('cxx') }}
-    - cmake
   host:
+    - python >=2.7
   #  - openmp # [linux]
   #  - ocl-icd
   #  - libhwloc 1.*
   #  - fftw
   #  - perl
-    - python >=2.7
   run:
     - python >=2.7
      #   - ocl-icd
