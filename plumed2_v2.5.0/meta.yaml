@@ -15,8 +15,8 @@ build:
 # for latest release. Note that version scheme changed from
 # 5.1 to 2016.x and 2018.x
 source:
-  git_rev: v2.5.0
-  git_url: https://github.com/plumed/plumed2
+  url: https://github.com/plumed/plumed2/releases/download/v2.5.0/plumed-src-2.5.0.tgz
+  md5: 6224cd089493661e19ceacccd35cf911
 
 requirements:
   build:
