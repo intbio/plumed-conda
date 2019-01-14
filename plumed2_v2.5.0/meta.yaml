@@ -32,9 +32,9 @@ requirements:
  #   - fftw
  #   - libhwloc 1.*
 
-#test:
-#  commands:
-#    - plumed --version
+test:
+  commands:
+    - plumed -h
 
 
 #extra:
