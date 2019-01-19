@@ -21,7 +21,7 @@ requirements:
     - openmpi
   host:
     - python >=2.7
-    -openmpi
+    - openmpi
   #  - openmp # [linux]
   #  - ocl-icd
   #  - libhwloc 1.*
