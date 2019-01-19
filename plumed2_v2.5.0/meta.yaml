@@ -18,14 +18,17 @@ requirements:
     - {{ compiler('c') }}
     - {{ compiler('cxx') }}
     - zlib
+    - openmpi
   host:
     - python >=2.7
+    -openmpi
   #  - openmp # [linux]
   #  - ocl-icd
   #  - libhwloc 1.*
   #  - fftw
   #  - perl
   run:
+    - openmpi
     - python >=2.7
      #   - ocl-icd
  #   - openmp # [linux]
